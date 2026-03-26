@@ -8,15 +8,15 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - uses: actions/checkout@v4
 
   - name: Install Mihomo
     run: |
-      wget -O mihomo.gz https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.gz
-      gunzip mihomo.gz
-      chmod +x mihomo
+      wget https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.gz
+      gunzip mihomo-linux-amd64.gz
+      chmod +x mihomo-linux-amd64
+      mv mihomo-linux-amd64 mihomo
 
   - name: Convert
     run: |
@@ -30,4 +30,3 @@ steps:
       git add *.mrs
       git commit -m "update" || echo done
       git push
-```
