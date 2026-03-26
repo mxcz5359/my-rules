@@ -1,15 +1,17 @@
 name: Build MRS Rules
 
-"on":
-push:
+on:
 workflow_dispatch:
+push:
 
 jobs:
 build:
 runs-on: ubuntu-latest
 
+```
 steps:
-  - uses: actions/checkout@v4
+  - name: Checkout
+    uses: actions/checkout@v4
 
   - name: Install Mihomo
     run: |
@@ -18,15 +20,16 @@ steps:
       chmod +x mihomo-linux-amd64
       mv mihomo-linux-amd64 mihomo
 
-  - name: Convert
+  - name: Convert rules
     run: |
       ./mihomo convert-ruleset domain text domain.txt domain.mrs
       ./mihomo convert-ruleset ipcidr text ipcidr.txt ipcidr.mrs
 
-  - name: Push
+  - name: Commit result
     run: |
-      git config --global user.name github-actions
-      git config --global user.email actions@github.com
+      git config --global user.name "github-actions"
+      git config --global user.email "actions@github.com"
       git add *.mrs
-      git commit -m "update" || echo done
+      git commit -m "update mrs" || echo "no changes"
       git push
+```
