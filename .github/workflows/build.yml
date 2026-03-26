@@ -1,6 +1,6 @@
 name: Build MRS Rules
 
-on:
+"on":
 push:
 workflow_dispatch:
 
