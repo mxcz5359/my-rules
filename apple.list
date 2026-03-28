@@ -1,0 +1,108 @@
+# Apple 基础服务
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-dns.net
+
+# iCloud
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,probe.icloud.com
+DOMAIN-SUFFIX,pong.icloud.com
+DOMAIN-SUFFIX,metrics.icloud.com
+
+# Apple ID / 认证
+DOMAIN-SUFFIX,idmsa.apple.com
+DOMAIN-SUFFIX,appleid.cdn-apple.com
+DOMAIN-SUFFIX,account.apple.com
+DOMAIN-SUFFIX,gsa.apple.com
+DOMAIN-SUFFIX,identity.apple.com
+
+# App Store / 内容
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apps-marketplace.apple.com
+
+# 推送 & MDM
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,deviceenrollment.apple.com
+DOMAIN-SUFFIX,deviceservices-external.apple.com
+DOMAIN-SUFFIX,mdmenrollment.apple.com
+DOMAIN-SUFFIX,iprofiles.apple.com
+
+# 软件更新
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN-SUFFIX,configuration.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com
+DOMAIN-SUFFIX,gg.apple.com
+DOMAIN-SUFFIX,gs.apple.com
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,oscdn.apple.com
+DOMAIN-SUFFIX,osrecovery.apple.com
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,swdist.apple.com
+DOMAIN-SUFFIX,swdownload.apple.com
+DOMAIN-SUFFIX,swscan.apple.com
+DOMAIN-SUFFIX,updates.cdn-apple.com
+DOMAIN-SUFFIX,updates-http.cdn-apple.com
+
+# 证书 & 安全
+DOMAIN-SUFFIX,certs.apple.com
+DOMAIN-SUFFIX,crl.apple.com
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,ocsp2.apple.com
+DOMAIN-SUFFIX,valid.apple.com
+
+# DNS
+DOMAIN-SUFFIX,doh.dns.apple.com
+
+# Apple Intelligence / Siri（重点）
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+
+# 其他 Apple 服务
+DOMAIN-SUFFIX,albert.apple.com
+DOMAIN-SUFFIX,captive.apple.com
+DOMAIN-SUFFIX,humb.apple.com
+DOMAIN-SUFFIX,static.ips.apple.com
+DOMAIN-SUFFIX,sq-device.apple.com
+DOMAIN-SUFFIX,tbsc.apple.com
+DOMAIN-SUFFIX,time.apple.com
+DOMAIN-SUFFIX,time-ios.apple.com
+DOMAIN-SUFFIX,time-macos.apple.com
+
+# 企业 / 教育
+DOMAIN-SUFFIX,business.apple.com
+DOMAIN-SUFFIX,school.apple.com
+DOMAIN-SUFFIX,api-business.apple.com
+DOMAIN-SUFFIX,api-school.apple.com
+
+# CloudKit / API
+DOMAIN-SUFFIX,api.apple-cloudkit.com
+
+# 其他 CDN / 资源
+DOMAIN-SUFFIX,devimages-cdn.apple.com
+DOMAIN-SUFFIX,download.developer.apple.com
+DOMAIN-SUFFIX,playgrounds-cdn.apple.com
+DOMAIN-SUFFIX,playgrounds-assets-cdn.apple.com
+DOMAIN-SUFFIX,audiocontentdownload.apple.com
+DOMAIN-SUFFIX,xp.apple.com
+DOMAIN-SUFFIX,xp-cdn.apple.com
+
+# 特殊服务
+DOMAIN-SUFFIX,apple-native-relay.apple.com
+DOMAIN-SUFFIX,lcdn-registration.apple.com
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+DOMAIN-SUFFIX,serverstatus.apple.com
